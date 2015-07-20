@@ -2,6 +2,7 @@ package com.list.listapp;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View.OnClickListener;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,7 +12,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class Play extends Activity implements OnClickListener {
+public class Play extends ActionBarActivity implements OnClickListener {
 
 	ImageView img;
 	Button back,bounce;
